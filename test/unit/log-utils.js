@@ -1,20 +1,20 @@
 /*
  * Copyright 2014 Telefonica Investigación y Desarrollo, S.A.U
  *
- * This file is part of tdaf-node-logger
+ * This file is part of fiware-node-logger
  *
- * tdaf-node-logger is free software: you can redistribute it and/or
+ * fiware-node-logger is free software: you can redistribute it and/or
  * modify it under the terms of the GNU Affero General Public License as
  * published by the Free Software Foundation, either version 3 of the License,
  * or (at your option) any later version.
  *
- * tdaf-node-logger is distributed in the hope that it will be useful,
+ * fiware-node-logger is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  * See the GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public
- * License along with tdaf-node-logger.
+ * License along with fiware-node-logger.
  * If not, seehttp://www.gnu.org/licenses/.
  *
  * For those usages not covered by the GNU Affero General Public License
@@ -22,11 +22,11 @@
  */
 
 /**
- * Function that parses the TDAF log format.
+ * Function that parses the FIWARE log format.
  *
  * @param {String} trace Log trace.
  *
- * @return {Object} parsedTrace Javascript object of TDAF formatted trace.
+ * @return {Object} parsedTrace Javascript object of FIWARE formatted trace.
  *
  */
 /*jshint -W101*/

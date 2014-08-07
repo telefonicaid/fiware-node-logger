@@ -1,6 +1,6 @@
 {
-  "name": "tdaf-node-logger",
-  "description": "Logger for node projects compatible with tdaf deployments",
+  "name": "fiware-node-logger",
+  "description": "Logger for node projects compatible with fiware deployments",
   "version": "0.1.0",
   "homepage": "",
   "author": {
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://pdihub.hi.inet/TDAF/tdaf-node-logger.git"
+    "url": "git://git@github.com:telefonicaid/fiware-node-logger.git"
   },
   "bugs": {
-    "url": "https://pdihub.hi.inet/TDAF/tdaf-node-logger/issues"
+    "url": "https://github.com/telefonicaid/fiware-node-logger/issues"
   },
-  "main": "lib/tdaf-node-logger",
+  "main": "lib/fiware-node-logger",
   "engines": {
     "node": ">=0.10.8"
   },

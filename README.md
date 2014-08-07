@@ -5,7 +5,7 @@ our Operations Team.
 
 ## Usage
 ```js
-var logger = require('tdaf-node-logger');
+var logger = require('fiware-node-logger');
 var context = {
   corr: 'cbefb082-3429-4f5c-aafd-26b060d6a9fc',
   trans: 'cbefb082-3429-4f5c-aafd-26b060d6a9fc',
@@ -33,7 +33,7 @@ If you are holding your context information in other places, like [Domains](http
 need to pass a context to __every__ log function. Simply override the `logger.getContext` method to let the logger to get it.
 
 ```js
-var logger = require('tdaf-node-logger');
+var logger = require('fiware-node-logger');
 //Set the operation 
 logger.getContext = function getDomainContext() {
   return require('domain').active.myContextObject;
@@ -64,7 +64,7 @@ ERROR Message
 You can set the logging level ant any time. All the disabled logging methods are replaced by a noop,
 so there is not any performance penalty at production using an undesired level
 ```js
-var logger = require('tdaf-node-logger');
+var logger = require('fiware-node-logger');
 
 // {String} level one of the following values ['DEBUG', 'INFO', 'WARN', 'ERROR', 'FATAL']
 logger.setLevel('DEBUG');
@@ -97,7 +97,7 @@ You can override the format function and manage by yourself the formatting takin
 overriding the `logger.format` function
 
 ```js
-var logger = require('tdaf-node-logger');
+var logger = require('fiware-node-logger');
 /**
  * Return a String representation for a trace.
  * @param {String} level One of the following values
@@ -120,7 +120,7 @@ If you want to pipe the output stream to any other stream in your source code, o
 you can override the stream used by this library
 
 ```js
-var logger = require('tdaf-node-logger');
+var logger = require('fiware-node-logger');
 logger.stream = new MyOtherSuperStreamThatDoesGreatThingsExceptWriteToDisk();
 ```
 

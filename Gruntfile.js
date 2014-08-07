@@ -150,7 +150,7 @@ module.exports = function(grunt) {
 
         dox: {
             options: {
-                title: 'tdaf-node-logger documentation'
+                title: 'fiware-node-logger documentation'
             },
             files: {
                 src: ['<%= jshint.lib.src %>'],

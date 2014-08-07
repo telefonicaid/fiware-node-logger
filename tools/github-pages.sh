@@ -10,7 +10,7 @@ git add .
 git commit -am "CREATE GitHub pages for the project"
 git push origin gh-pages
 git checkout master
-git clone git://pdihub.hi.inet/TDAF/tdaf-node-logger.git site
+git clone git@github.com:telefonicaid/fiware-node-logger.git site
 cd site
 git checkout gh-pages
 
